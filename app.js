@@ -18,7 +18,7 @@ app.use(express.json());
 const corsOptions = {
     origin: [
       'http://localhost:3000',
-      'http://task-master.onredner.com'
+      'https://task-master-oclz.onrender.com'
     ] // Allow requests from this origin
   };
 app.use(cors(corsOptions));
